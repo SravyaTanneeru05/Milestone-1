@@ -1,0 +1,7 @@
+putstr("Enter the value for pi: ");
+const pi = parseFloat(readline());
+putstr("Enter the radius of the circle: ");
+let radius = parseInt(readline());
+let area = pi * (radius * radius);
+print(`The area of a circle with radius ${radius} is   
+      ${area.toFixed(2)}.`);
